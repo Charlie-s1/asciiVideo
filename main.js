@@ -1,4 +1,4 @@
-const asciiList = `$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^'.    `
+const asciiList = `$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^'. `
 
 window.onload = ()=>{
      
@@ -58,7 +58,7 @@ function draw(width,imgPixels){
         cont.appendChild(letter);
     }
     document.querySelector("body").appendChild(cont);
-    cont.style.gridTemplateColumns = `repeat(${width},1fr)`
+    cont.style.gridTemplateColumns = `repeat(${width},1fr)`;
 }
 
 
