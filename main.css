@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+html,body{
+    height:100%;
+}
+body{
+    background: black;
+}
+#imgCont{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    width:1280px;
+    height:1164px;
+    column-gap: 0;
+    /* grid-template-columns: repeat(48,1fr); */
+}
+#imgCont > p {
+    font-size: .5rem;
+    color: white;
+    text-align: center;
+    width:.25rem;
+    height:0rem;
+}
