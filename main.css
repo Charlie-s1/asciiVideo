@@ -10,7 +10,13 @@ html,body{
 body{
     background: black;
 }
-
+#eMsg{
+    display:flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
 #imgCont{
     position: absolute;
     z-index: -1;
